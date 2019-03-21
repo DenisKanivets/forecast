@@ -1,0 +1,62 @@
+.main-section {
+  text-align: center;
+  background: url("http://drobs.ru/opyat/50/derevo_trava_nebo_oblaka_1600x1200.jpg") bottom center;
+  height: 80vh;
+
+  form {
+    margin: 20px;
+
+    .input {
+      width: 20%;
+      height: 40px;
+      border-radius: 50px;
+      border: 1px solid gray;
+      outline: none;
+      padding: 0 0 0 20px;
+      margin-right: 20px;
+      font-size: 20px;
+      transition: all 0.5s linear;
+
+      &:focus {
+        width: 40%;
+        box-shadow: 0 0 10px gray;
+      }
+    }
+
+    .button {
+      width: 100px;
+      height: 42px;
+      border-radius: 30px;
+      border: 1px solid transparent;
+      outline: none;
+      padding: 0;
+      font-size: 20px;
+      background: #287CEA;
+      color: #fff;
+    }
+  }
+
+  .react-logo {
+    color: #fff;
+    font-size: 333px;
+    margin: 50px;
+  }
+
+  .first-info {
+    margin: 20px;
+  }
+
+  .detailed {
+    margin: 30px;
+    font-weight: 700;
+    text-decoration: underline;
+    font-style: italic;
+    color: #000;
+    transition: all 1s ease;
+
+    &:hover {
+      font-size: 20px;
+      color: #287CEA;
+    }
+  }
+}

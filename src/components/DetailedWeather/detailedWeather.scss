@@ -1,0 +1,24 @@
+.main-section {
+  text-align: center;
+  background: url("http://drobs.ru/opyat/50/derevo_trava_nebo_oblaka_1600x1200.jpg") bottom center;
+  height: 80vh;
+
+  .detailed-head {
+    margin: 20px;
+    font-weight: 500;
+    font-size: 22px;
+  }
+
+  .go-back {
+    text-align: left;
+    font-weight: 700;
+    text-decoration: underline;
+    font-style: italic;
+    color: #000;
+  }
+
+  .location {
+    margin: 20px;
+  }
+}
+

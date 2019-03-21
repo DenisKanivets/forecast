@@ -1,0 +1,24 @@
+.day-block {
+  display: inline-block;
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid transparent;
+  transition: all 0.5s ease;
+
+  &:hover {
+    border-radius: 40px;
+    border: 1px solid #287CEA;
+    box-shadow: 0 0 10px gray;
+    transform: scale(1.1);
+  }
+
+  img {
+    height: 100px;
+    width: 100px;
+    border-radius: 30px;
+  }
+
+  p {
+    margin: 10px 0;
+  }
+}
