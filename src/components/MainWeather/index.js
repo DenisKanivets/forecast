@@ -21,7 +21,7 @@ class MainWeather extends Component {
         const subCity = {
             city: this.state.city
         };
-        axios.get("http://api.worldweatheronline.com/premium/v1/weather.ashx?key=314c240e44fd436d93f135946192003&q=" + subCity.city + "&num_of_days=7&format=json")
+        axios.get("https://api.worldweatheronline.com/premium/v1/weather.ashx?key=314c240e44fd436d93f135946192003&q=" + subCity.city + "&num_of_days=7&format=json")
             .then(res => {
                 if (res.data.data.request) {
                     this.setState({data: res.data, status: true})
